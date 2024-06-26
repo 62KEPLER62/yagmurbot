@@ -17,10 +17,7 @@ client.once(Events.ClientReady, (clientUser) => {
   console.log(`Logged in as ${clientUser.user.tag}`);
 });
 
-// client.login(process.env.TOKEN)
-client.login(
-  "MTI1NTI4NzYyNDQ4NzQwMzYwMA.GXiP5k.q0dfoHiEtw41NKP2MGQln7gx3k4GIFGwA6wniw"
-);
+client.login(process.env.TOKEN)
 
 const PAST_MESSAGES = 10;
 
